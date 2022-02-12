@@ -621,7 +621,17 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border: 5px solid #000000;
   
+}
+#imgBatman
+{
+
+  max-width: 100%;
+  height: 450px;
+  padding: 2%;
+  border: 10px solid #000000;
+  margin: 10px 10px 10px -10px;
 }
 #imgfotoBatman{
 
@@ -6935,6 +6945,7 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+
 }
 
 .d-inline-flex {
