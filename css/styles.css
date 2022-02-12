@@ -639,6 +639,7 @@ progress {
   height: auto;
   border-radius: 50%;
 }
+#body 
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -11596,11 +11597,13 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/FondoPortada.jpg") ;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  opacity: 0.9;
+  z-index: -3;
 }
 
 .masthead1 {  
@@ -11745,4 +11748,21 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+#texto{
+
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+}
+#imgBatman2{
+
+  max-width: 100%;
+  height: 450px;
+  padding: 2%;
+  border: 10px solid #000000;
+
+
 }
